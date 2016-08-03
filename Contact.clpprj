@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\AppServ\www\Contact\Contact.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/Contact/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Contact/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\AppServ\www\Contact\login.php"/>
+		<file name="C:\AppServ\www\Contact\link.php"/>
+		<file name="C:\AppServ\www\Contact\loginFront.php"/>
+		<file name="C:\AppServ\www\Contact\css\reset.css"/>
+		<file name="C:\AppServ\www\Contact\css\style.css"/>
+		<file name="C:\AppServ\www\Contact\addcontactFront.php"/>
+		<file name="C:\AppServ\www\Contact\menu.php"/>
+		<file name="C:\AppServ\www\Contact\adduserFront.php"/>
+		<file name="C:\AppServ\www\Contact\showMyData.php"/>
+		<file name="C:\AppServ\www\Contact\addcontact.php"/>
+		<file name="C:\AppServ\www\Contact\linkdb.php"/>
+		<file name="C:\AppServ\www\Contact\adduser.php"/>
+		<file name="C:\AppServ\www\Contact\index.html"/>
+		<file name="C:\AppServ\www\Contact\AdminMyData.php"/>
+		<file name="C:\AppServ\www\Contact\logout.php"/>
+	</lastopfiles>
+	<codestructure version="5.8">
+		<phptree>
+			<treenode node="link.php;PHP:PHP Include;C:\AppServ\www\Contact\linkdb.php;f10;2;18;2;;C:\AppServ\www\Contact\adduser.php;f10;12;18;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="linkdb.php;PHP:PHP Include;C:\AppServ\www\Contact\login.php;f10;2;20;2;;C:\AppServ\www\Contact\showMyData.php;f9;54;19;54;;C:\AppServ\www\Contact\showAllData.php;f9;54;19;54;;C:\AppServ\www\Contact\AdminMyData.php;f10;2;20;2;;C:\AppServ\www\Contact\AdminData.php;f10;2;20;2;;C:\AppServ\www\Contact\addcontact.php;f10;2;20;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="menu.php;PHP:PHP Include;C:\AppServ\www\Contact\showMyData.php;f15;35;23;35;;C:\AppServ\www\Contact\showAllData.php;f15;35;23;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_POST;PHP:Var Name;C:\AppServ\www\Contact\login.php;f13;4;19;4;;C:\AppServ\www\Contact\AdminMyData.php;f12;6;18;6;;C:\AppServ\www\Contact\AdminData.php;f12;6;18;6;;C:\AppServ\www\Contact\addcontact.php;f9;4;15;4;;C:\AppServ\www\Contact\adduser.php;f10;2;16;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_SESSION;PHP:Var Name;C:\AppServ\www\Contact\showMyData.php;f190;61;199;61;;C:\AppServ\www\Contact\showAllData.php;f190;61;199;61;;C:\AppServ\www\Contact\AdminMyData.php;f11;4;20;4;;C:\AppServ\www\Contact\AdminData.php;f11;4;20;4;;C:\AppServ\www\Contact\linkdb.php;f13;5;22;5;;C:\AppServ\www\Contact\addcontact.php;f69;21;78;21;;C:\AppServ\www\Contact\Codelobster0.php;f1;4;10;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="addToList;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f5;17;15;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="contactID;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f3;22;13;22;;C:\AppServ\www\Contact\AdminData.php;f3;22;13;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="count;PHP:Var Name;C:\AppServ\www\Contact\linkdb.php;f1;12;7;12;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="countresult;PHP:Var Name;C:\AppServ\www\Contact\linkdb.php;f1;11;13;11;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="database;PHP:Var Name;C:\AppServ\www\Contact\link.php;f1;16;10;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_select;PHP:Var Name;C:\AppServ\www\Contact\link.php;f1;17;11;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="delData;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f5;31;13;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="email;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;6;7;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="facebook;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;7;10;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="getAllrowsSQL;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;11;15;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="getIDSQL;PHP:Var Name;C:\AppServ\www\Contact\showMyData.php;f0;61;9;61;;C:\AppServ\www\Contact\showAllData.php;f0;61;9;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="host;PHP:Var Name;C:\AppServ\www\Contact\link.php;f1;6;6;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="i;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f7;20;9;20;;C:\AppServ\www\Contact\AdminData.php;f7;20;9;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Lastrow;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;13;9;13;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="line;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;8;6;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="link;PHP:Var Name;C:\AppServ\www\Contact\login.php;f13;10;18;10;;C:\AppServ\www\Contact\link.php;f1;7;6;7;;C:\AppServ\www\Contact\showMyData.php;f12;80;17;80;;C:\AppServ\www\Contact\showAllData.php;f12;80;17;80;;C:\AppServ\www\Contact\AdminMyData.php;f13;36;18;36;;C:\AppServ\www\Contact\AdminData.php;f13;31;18;31;;C:\AppServ\www\Contact\addcontact.php;f13;25;18;25;;C:\AppServ\www\Contact\adduser.php;f13;20;18;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="login;PHP:Var Name;C:\AppServ\www\Contact\adduser.php;f1;2;7;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="n;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f1;10;3;10;;C:\AppServ\www\Contact\AdminData.php;f1;10;3;10;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="name;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;4;6;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="newid;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;15;7;15;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="newrow;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;14;8;14;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="pass;PHP:Var Name;C:\AppServ\www\Contact\link.php;f1;5;6;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="password;PHP:Var Name;C:\AppServ\www\Contact\login.php;f1;5;10;5;;C:\AppServ\www\Contact\linkdb.php;f1;6;10;6;;C:\AppServ\www\Contact\adduser.php;f1;15;10;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="phone;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;5;7;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="pri;PHP:Var Name;C:\AppServ\www\Contact\linkdb.php;f1;7;5;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Remove;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f1;12;8;12;;C:\AppServ\www\Contact\AdminData.php;f1;12;8;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="result;PHP:Var Name;C:\AppServ\www\Contact\showMyData.php;f0;63;7;63;;C:\AppServ\www\Contact\showAllData.php;f0;63;7;63;;C:\AppServ\www\Contact\linkdb.php;f1;10;8;10;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="row;PHP:Var Name;C:\AppServ\www\Contact\showMyData.php;f7;65;11;65;;C:\AppServ\www\Contact\showAllData.php;f7;65;11;65;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="runSQL;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;12;8;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="selUser;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f1;6;9;6;;C:\AppServ\www\Contact\AdminData.php;f1;6;9;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="setSQL;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f3;23;10;23;;C:\AppServ\www\Contact\AdminData.php;f3;23;10;23;;C:\AppServ\www\Contact\linkdb.php;f1;9;8;9;;C:\AppServ\www\Contact\addcontact.php;f1;21;8;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="sqlCode;PHP:Var Name;C:\AppServ\www\Contact\login.php;f1;7;9;7;;C:\AppServ\www\Contact\addcontact.php;f1;17;9;17;;C:\AppServ\www\Contact\adduser.php;f1;17;9;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tag;PHP:Var Name;C:\AppServ\www\Contact\addcontact.php;f1;9;5;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="url;PHP:Var Name;C:\AppServ\www\Contact\linkdb.php;f2;16;6;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="user;PHP:Var Name;C:\AppServ\www\Contact\link.php;f1;4;6;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="userID;PHP:Var Name;C:\AppServ\www\Contact\AdminMyData.php;f1;4;8;4;;C:\AppServ\www\Contact\AdminData.php;f1;4;8;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="username;PHP:Var Name;C:\AppServ\www\Contact\login.php;f1;4;10;4;;C:\AppServ\www\Contact\linkdb.php;f1;5;10;5;;C:\AppServ\www\Contact\adduser.php;f1;14;10;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+			<treenode node="do_this_all;JS:Function Name;C:\AppServ\www\Contact\showAllData.php;f0;8;5;17;;;;vpos;;v;;r;;d4,9;;b0,0;;m">
+				<treenode node="button;JS:JS Var Name;C:\AppServ\www\Contact\showAllData.php;f12;11;18;11;;;;vposDOMElement;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="checkboxes;JS:JS Var Name;C:\AppServ\www\Contact\showAllData.php;f9;10;19;10;;;;vposDOMElementsCollection;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;C:\AppServ\www\Contact\showAllData.php;f22;10;30;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="i;JS:JS Var Name;C:\AppServ\www\Contact\showAllData.php;f11;13;12;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="undo_this_all;JS:Function Name;C:\AppServ\www\Contact\showAllData.php;f0;19;5;28;;;;vpos;;v;;r;;d4,20;;b0,0;;m">
+				<treenode node="button;JS:JS Var Name;C:\AppServ\www\Contact\showAllData.php;f12;22;18;22;;;;vposDOMElement;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="checkboxes;JS:JS Var Name;C:\AppServ\www\Contact\showAllData.php;f9;21;19;21;;;;vposDOMElementsCollection;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;C:\AppServ\www\Contact\showAllData.php;f22;21;30;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="i;JS:JS Var Name;C:\AppServ\www\Contact\showAllData.php;f11;24;12;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="window;JS:JS Var Name;C:\AppServ\www\Contact\Codelobster0.html;f3;7;9;7;;C:\AppServ\www\Contact\AdminData.php;f3;35;9;35;;C:\AppServ\www\Contact\addcontact.php;f3;29;9;29;;C:\AppServ\www\Contact\Codelobster0.php;f3;12;9;12;;C:\AppServ\www\Contact\adduser.php;f3;25;9;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="location;JS:JS Var Name;C:\AppServ\www\Contact\Codelobster0.html;f10;7;18;7;;C:\AppServ\www\Contact\Codelobster0.php;f10;45;18;45;;C:\AppServ\www\Contact\AdminData.php;f10;36;18;36;;C:\AppServ\www\Contact\AdminData.php;f10;36;18;36;;C:\AppServ\www\Contact\AdminData.php;f10;35;18;35;;C:\AppServ\www\Contact\addcontact.php;f10;29;18;29;;C:\AppServ\www\Contact\Codelobster0.php;f10;12;18;12;;C:\AppServ\www\Contact\adduser.php;f10;25;18;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="href;JS:JS Var Name;C:\AppServ\www\Contact\Codelobster0.html;f19;7;23;7;;C:\AppServ\www\Contact\Codelobster0.php;f19;45;23;45;;C:\AppServ\www\Contact\AdminData.php;f19;36;23;36;;C:\AppServ\www\Contact\AdminData.php;f19;36;23;36;;C:\AppServ\www\Contact\AdminData.php;f19;35;23;35;;C:\AppServ\www\Contact\addcontact.php;f19;29;23;29;;C:\AppServ\www\Contact\Codelobster0.php;f19;12;23;12;;C:\AppServ\www\Contact\adduser.php;f19;25;23;25;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\AppServ\www\Contact\css\style.css" crc="1470035108"/>
+		<file name="C:\AppServ\www\Contact\css\reset.css" crc="1470035108"/>
+		<file name="C:\AppServ\www\Contact\__MACOSX\Project_template\css\._style.css" crc="1470035108"/>
+		<file name="C:\AppServ\www\Contact\__MACOSX\Project_template\css\._reset.css" crc="1470035108"/>
+		<file name="C:\AppServ\www\Contact\__MACOSX\Project_template\._linkdb.php" crc="1470035108"/>
+		<file name="C:\AppServ\www\Contact\showMyData.php" crc="1470040276"/>
+		<file name="C:\AppServ\www\Contact\showAllData.php" crc="1470038497"/>
+		<file name="C:\AppServ\www\Contact\menu.php" crc="1470041754"/>
+		<file name="C:\AppServ\www\Contact\logout.php" crc="1470041851"/>
+		<file name="C:\AppServ\www\Contact\loginFront.php" crc="1470041556"/>
+		<file name="C:\AppServ\www\Contact\login.php" crc="1470041673"/>
+		<file name="C:\AppServ\www\Contact\linkdb.php" crc="1470041027"/>
+		<file name="C:\AppServ\www\Contact\link.php" crc="1470036915"/>
+		<file name="C:\AppServ\www\Contact\AdminMyData.php" crc="1470040581"/>
+		<file name="C:\AppServ\www\Contact\AdminData.php" crc="1470040176"/>
+		<file name="C:\AppServ\www\Contact\adduserFront.php" crc="1470042199"/>
+		<file name="C:\AppServ\www\Contact\adduser.php" crc="1470042143"/>
+		<file name="C:\AppServ\www\Contact\addcontactFront.php" crc="1470042078"/>
+		<file name="C:\AppServ\www\Contact\addcontact.php" crc="1470041343"/>
+	</filescache>
+</project>
